@@ -27,3 +27,18 @@ The web application is built using the following technologies:
 + React: A popular JavaScript library for building user interfaces.
 + FontAwesome: A library for adding icons to the application.
 + CSS: For styling the application's components.
+
+
+## Assesment Question 2
+This is a simple Flask web application that provides user registration, login, and a logout functionality. The application allows users to create an account, log in, and log out.
+
+### Setup and Requirements
+Before running the application, make sure you have the following requirements installed:
+
++ Python (3.6 or higher)
++ Flask (1.1.2 or higher)
++ Flask-MySQL (or any other preferred MySQL library)
+
+You can install Flask and other required packages using pip:
++ pip install flask flask-mysqldb
+
