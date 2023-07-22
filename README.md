@@ -1,4 +1,4 @@
-# Intern-Assesment 
+# Internship-Assesment 
 Name: Kishwanth A/L Hari Krishnan <br>
 Internship period : October 2023 - March 2024 (24 weeks/6 months)
 <br><br>
