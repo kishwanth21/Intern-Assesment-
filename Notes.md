@@ -33,7 +33,7 @@ A simple backend web application built using Flask, a Python web framework. The 
 3. Dashboard:
 + Logged-in users can access the dashboard, which displays their username. <br><br> 
 
-4 . User Logout:
+4. User Logout:
 + Logged-in users can log out by sending a POST request to the /logout route.
 + The user's username is removed from the session after logging out. <br><br> 
 
