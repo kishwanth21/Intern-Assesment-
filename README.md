@@ -45,10 +45,12 @@ You can install Flask and other required packages using pip:
 ### Getting Started
 1. Create a MySQL database named try with the appropriate table structure. You can use the following SQL commands:
    + CREATE DATABASE try;
-USE try;
-CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(50) NOT NULL UNIQUE,
-    password VARCHAR(100) NOT NULL
+<br> USE try;
+<br> CREATE TABLE users (
+  <br>  id INT AUTO_INCREMENT PRIMARY KEY,
+   <br> username VARCHAR(50) NOT NULL UNIQUE,
+   <br> password VARCHAR(100) NOT NULL
 );
 
+2. Update the MySQL database configuration in the app.py file:
+   + 
