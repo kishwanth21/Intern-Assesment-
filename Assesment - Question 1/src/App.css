@@ -1,0 +1,243 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+  font-size: 14px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+/* App Container */
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Registration and Login styles */
+.login-container,
+.registration-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2,
+.registration-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-form,
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-form input,
+.login-form input,
+.registration-form button,
+.login-form button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.registration-form button,
+.login-form button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.registration-form button:hover,
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+.login-link-text,
+.registration-link-text {
+  text-align: center;
+}
+
+.login-link,
+.registration-link {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Profile styles */
+.profile-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.profile-container h2 {
+  text-align: center;
+}
+
+.logout-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+
+/* Password visibility toggle styles */
+.password-field-container {
+  position: relative;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #777;
+}
+
+.about-me-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.about-me-container h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.about-me-container p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.about-me-container textarea {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.edit-profile-btn,
+.save-draft-btn,
+.submit-profile-btn,
+.save-profile-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+}
+
+.edit-profile-btn:hover,
+.save-draft-btn:hover,
+.submit-profile-btn:hover,
+.save-profile-btn:hover {
+  background-color: #0056b3;
+}
+
+.edit-profile-container {
+  margin-top: 20px;
+}
+
+.edit-profile-container h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.edit-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.edit-input-container label {
+  flex: 0 0 120px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.edit-input-container input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Additional Animations */
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 1s forwards;
+}
+
+@keyframes fadeInAnimation {
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+
+
