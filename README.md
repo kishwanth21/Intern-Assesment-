@@ -1,7 +1,7 @@
 # Intern-Assesment 
 Name: Kishwanth A/L Hari Krishnan <br>
 Internship period : October 2023 - March 2024 (24 weeks/6 months)
-
+<br><br>
 ## Assesment Question 1
 ### Introduction
 The Web App provides a straightforward way to handle user registration, login, and profile management within a React-based web application. Users can register an account with a valid username, email, and password. Once registered, users can log in with their credentials, view and edit their profile information, including an "About Me" text, hobbies, education, and skills.
@@ -28,7 +28,7 @@ The web application is built using the following technologies:
 + FontAwesome: A library for adding icons to the application.
 + CSS: For styling the application's components.
 
-
+<br><br>
 ## Assesment Question 2
 This is a simple Flask web application that provides user registration, login, and a logout functionality. The application allows users to create an account, log in, and log out.
 
