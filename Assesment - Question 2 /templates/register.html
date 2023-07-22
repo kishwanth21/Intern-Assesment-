@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Register</h1>
+        </header>
+        <main>
+            <div class="form-container">
+                <form method="post" action="/register" class="form">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password:</label>
+                    <div class="password-field">
+                        <input type="password" id="password" name="password" required>
+                        <span class="toggle-password" onclick="togglePasswordVisibility('password')">
+                            <i class="fa fa-eye" id="toggleIcon"></i>
+                        </span>
+                    </div>
+                    <input type="submit" value="Register" class="button primary-button">
+                </form>
+                <p>Already have an account? <a href="/login">Login here</a></p>
+                {% if error %}
+                    <p class="error">{{ error }}</p>
+                {% endif %}
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2023 KISHWANTH A/L HARI KRISHNAN. </p>
+        </footer>
+    </div>
+
+    <script>
+        function togglePasswordVisibility(inputId) {
+            const passwordInput = document.getElementById(inputId);
+            const toggleIcon = document.getElementById('toggleIcon');
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                toggleIcon.classList.remove('fa-eye');
+                toggleIcon.classList.add('fa-eye-slash');
+            } else {
+                passwordInput.type = 'password';
+                toggleIcon.classList.remove('fa-eye-slash');
+                toggleIcon.classList.add('fa-eye');
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
