@@ -15,6 +15,11 @@ The Web App provides a straightforward way to handle user registration, login, a
 
 ### Getting Started
 1. Install the required dependencies using npm:
+   + npm install
+2. To run the React User Profile Management App locally, execute the following command:
+   + npm start
+     
+The application will run on http://localhost:3000 in your web browser
 
 ### Programming Language/Tools Used
 The web application is built using the following technologies:
