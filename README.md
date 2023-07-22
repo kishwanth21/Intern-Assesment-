@@ -15,5 +15,14 @@ The Web App provides a straightforward way to handle user registration, login, a
 
 ### Getting Started
 1. Install the required dependencies using npm:
-   % npm install
+[1]:https://github.com/guyzmo/git-repo/blob/devel/git_repo/repo.py#L4,L35
+
+    % git hub clone guyzmo/git-repo
+
+But that works also with a project from GitLab, Bitbucket, your own GitLab or Gogs:
+
+    % git lab clone guyzmo/git-repo
+    % git bb clone guyzmo/git-repo
+    % git myprecious clone guyzmo/git-repo
+    % git gg clone guyzmo/git-repo
 
