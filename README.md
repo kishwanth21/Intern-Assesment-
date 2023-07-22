@@ -53,4 +53,12 @@ You can install Flask and other required packages using pip:
 );
 
 2. Update the MySQL database configuration in the app.py file:
-   + 
+   + app.config['MYSQL_HOST'] = 'localhost'
+<br> app.config['MYSQL_USER'] = 'your_mysql_username'
+<br> app.config['MYSQL_PASSWORD'] = 'your_mysql_password'
+<br> app.config['MYSQL_DB'] = 'try'
+<br> app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
+
+3. Run the Flask application:
+   + python app.py
+
