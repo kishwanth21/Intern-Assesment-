@@ -12,3 +12,7 @@
 
 ### 4. Edit Profile Page
 ![Screenshot 2023-07-22 123125](https://github.com/kishwanth21/Intern-Assesment-/assets/121415244/5fbd942e-4d4b-40a6-92dd-ddeb5db45a16)
+
+<br><br><br>
+
+## Assesment Question 2
