@@ -62,3 +62,9 @@ You can install Flask and other required packages using pip:
 3. Run the Flask application:
    + python app.py
 
+### Programming Language/Tools Used
+The web application is built using the following technologies:
+
++ Python: Core programming language for building the web application. .
++ MYSQL Database: To store the user's data.
++ CSS: For styling the application's components.
