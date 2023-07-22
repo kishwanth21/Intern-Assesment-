@@ -4,3 +4,11 @@
 1. Register Page <br><br>
 ![Screenshot 2023-07-22 123021](https://github.com/kishwanth21/Intern-Assesment-/assets/121415244/27445e60-210b-4fc9-aacc-9b2eb40144e8)
 
+2. Login Page <br><br>
+![Screenshot 2023-07-22 123005](https://github.com/kishwanth21/Intern-Assesment-/assets/121415244/6e1e5e22-d892-4cc0-988e-c43fbe0383ee)
+
+3. About Me Page <br><br>
+![Screenshot 2023-07-22 123058](https://github.com/kishwanth21/Intern-Assesment-/assets/121415244/4d99e88f-049c-4e92-82f1-9b8ed23e868b)
+
+4. Edit Profile Page
+![Screenshot 2023-07-22 123125](https://github.com/kishwanth21/Intern-Assesment-/assets/121415244/5fbd942e-4d4b-40a6-92dd-ddeb5db45a16)
