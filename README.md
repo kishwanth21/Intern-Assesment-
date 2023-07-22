@@ -15,14 +15,10 @@ The Web App provides a straightforward way to handle user registration, login, a
 
 ### Getting Started
 1. Install the required dependencies using npm:
-[1]:https://github.com/guyzmo/git-repo/blob/devel/git_repo/repo.py#L4,L35
 
-    % git hub clone guyzmo/git-repo
+### Programming Language/Tools Used
+The web application is built using the following technologies:
 
-But that works also with a project from GitLab, Bitbucket, your own GitLab or Gogs:
-
-    % git lab clone guyzmo/git-repo
-    % git bb clone guyzmo/git-repo
-    % git myprecious clone guyzmo/git-repo
-    % git gg clone guyzmo/git-repo
-
++ React: A popular JavaScript library for building user interfaces.
++ FontAwesome: A library for adding icons to the application.
++ CSS: For styling the application's components.
